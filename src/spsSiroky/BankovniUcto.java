@@ -22,7 +22,7 @@ public class BankovniUcto {
     public double getStavUctu() {
         if (stavUctu < 0){
             System.out.println("váš účet je v mínusu... Jste exekutován.");
-            return stavUctu - 999999999;
+            return stavUctu;
         }else {
             return stavUctu;
         }
